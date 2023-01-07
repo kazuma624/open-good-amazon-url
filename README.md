@@ -1,4 +1,4 @@
-# extract-raw-url
+# open-good-amazon-url
 
 Chrome 拡張機能の練習
 
