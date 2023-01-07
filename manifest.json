@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Amazonの綺麗なURLを開く",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripting": [
+    {
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "icons": {
+    "16": "imgs/icon16.png",
+    "32": "imgs/icon32.png",
+    "48": "imgs/icon48.png",
+    "128": "imgs/icon128.png"
+  }
+}
